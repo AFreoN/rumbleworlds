@@ -1,0 +1,73 @@
+.block-5 {
+  // margin-top: -5%;
+  // z-index: 2;
+  text-align: left;
+  // background: #1e1e1e;
+  padding-bottom: 10rem;
+  position: relative;
+  background-image: url("../../../assets/common/background_pattern.svg");
+  .block-wrapper {
+    padding-top: 150px;
+    @media only screen and (max-width: 768px) {
+      padding-top: 0px;
+    }
+  }
+
+  .title {
+    margin-bottom: 60px;
+  }
+
+  .separator {
+    display: block;
+    height: 1px;
+    background: white;
+    margin-bottom: 35px;
+  }
+
+  .penguin {
+    position: absolute;
+    left: -5%;
+    top: 20%;
+
+    @media only screen and (min-width: 1200px) {
+      left: 0;
+    }
+  }
+
+  .join-discord-button {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    background-color: #5865f2;
+    .discord-logo {
+      max-width: 35px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.toggle-bar {
+  cursor: pointer;
+  .icon {
+    transition: all 0.2s;
+    &.opened {
+      transform: rotate(180deg);
+    }
+  }
+  .bar-heading {
+    margin-bottom: 37px;
+  }
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: margin-top, max-height 0.25s ease-out;
+
+    &.opened {
+      max-height: 20rem;
+      transition: max-height 0.25s ease-in;
+    }
+  }
+}

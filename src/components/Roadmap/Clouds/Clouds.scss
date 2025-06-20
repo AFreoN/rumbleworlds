@@ -1,0 +1,74 @@
+.clouds-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  height: 500px;
+  top: 285px;
+}
+
+.cloud {
+  position: absolute;
+  z-index: 0;
+}
+
+#cloud-1 {
+  animation-delay: -5s;
+  @media screen and (max-width: 860px) {
+    animation: 14s linear 0s infinite running cloudMotion;
+  }
+  @media screen and (min-width: 861px) {
+    animation: 28s linear 0s infinite running cloudMotion;
+  }
+}
+
+#cloud-2 {
+  animation-delay: -2s;
+  @media screen and (max-width: 860px) {
+    animation: 10s linear 0s infinite running cloudMotion;
+  }
+  @media screen and (min-width: 861px) {
+    animation: 20s linear 0s infinite running cloudMotion;
+  }
+  top: 125px;
+}
+
+#cloud-3 {
+  animation-delay: -1s;
+  @media screen and (max-width: 860px) {
+    animation: 12.5s linear 0.5s infinite running cloudMotion;
+  }
+  @media screen and (min-width: 861px) {
+    animation: 25s linear 1s infinite running cloudMotion;
+  }
+  top: 187px;
+}
+
+#cloud-4 {
+  @media screen and (max-width: 860px) {
+    animation: 17.5s linear 1s infinite running cloudMotion;
+  }
+  @media screen and (min-width: 861px) {
+    animation: 35s linear 2s infinite running cloudMotion;
+  }
+  top: 400px;
+}
+
+@keyframes cloudMotion {
+  0% {
+    left: 100%;
+    // opacity: 0;
+  }
+  40% {
+    // opacity: 60%;
+  }
+  50% {
+    // opacity: 70%;
+  }
+  60% {
+    // opacity: 60%;
+  }
+  100% {
+    left: -168px;
+    // opacity: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.block-3 {
+  // margin-top: -10vh;
+  z-index: 2;
+  position: relative;
+  margin-top: -5rem;
+  background-image: url("../../../assets/common/background_pattern.svg");
+
+  .block-wrapper {
+    padding-top: 18rem;
+    padding-bottom: 11rem;
+    img {
+      filter: drop-shadow(6px 4px 0px black);
+    }
+    // .left-col {
+    //   margin-left: 15%;
+    // }
+    // .right-col {
+    //   margin-right: 15%;
+    // }
+    .container {
+      > .row {
+        margin-bottom: 3.5rem;
+      }
+    }
+  }
+}

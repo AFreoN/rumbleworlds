@@ -1,0 +1,72 @@
+.block-4 {
+  z-index: 2;
+  position: relative;
+  margin-top: -9rem;
+  overflow: hidden;
+  min-height: 1000px;
+  clip-path: polygon(47% 3%, 50% 7%, 100% 2%, 100% 99%, 0 100%, 0 0);
+
+  .overlay {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 82%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent);
+  }
+
+  .background {
+    object-fit: cover;
+    overflow: hidden;
+    min-width: 500px;
+    width: 100%;
+
+    @media only screen and (min-width: 768px) {
+      max-width: unset;
+      width: 100%;
+      min-height: 100vh;
+    }
+
+    @media only screen and (max-width: 768px) {
+      min-height: 1500px;
+    }
+  }
+
+  .background {
+    filter: brightness(50%);
+  }
+  .block-wrapper {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: left;
+
+    @media only screen and (min-width: 768px) {
+      top: 23%;
+    }
+
+    // .left-col {
+    //   @media only screen and (min-width: 768px) {
+    //     margin-left: 15%;
+    //   }
+    // }
+
+    .right-col {
+      position: relative;
+
+      .character {
+        position: relative;
+        @media only screen and (max-width: 768px) {
+          max-height: 500px;
+        }
+      }
+
+      .stand {
+        margin-top: -15%;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.MintRarity {
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+  background-image: url("../../../assets/mint/rarity/background.png");
+  background-position: center;
+  background-size: cover;
+
+  .background {
+    width: 100%;
+    filter: saturate(0.35) contrast(1.05);
+
+    @media only screen and (max-width: 1200px) {
+      visibility: hidden;
+    }
+  }
+
+  .block-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+
+    .board {
+      height: 100%;
+      position: relative;
+      top: -10px;
+      img {
+        height: 80%;
+
+        @media only screen and (max-width: 768px) {
+          height: auto;
+          width: 100%;
+          max-width: 500px;
+        }
+      }
+
+      .text-wrapper {
+        position: absolute;
+        top: 37%;
+        left: 0;
+        right: 0;
+
+        @media only screen and (max-width: 768px) {
+          top: 50%;
+        }
+
+        @media only screen and (max-width: 500px) {
+          top: calc(5% + 35vw);
+        }
+      }
+    }
+
+    // @media only screen and (min-width: 560px) {
+    //   top: 50%;
+    //   transform: translateY(-10%);
+    // }
+  }
+}

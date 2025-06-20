@@ -1,0 +1,151 @@
+.block-2 {
+  margin-top: -10vh;
+  position: relative;
+  z-index: 3;
+  min-height: 80vh;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 98%, 60% 100%, 46% 91%, 0 100%);
+  // background: url(../../../assets//home/block-2/background.png);
+  // background-size: cover;
+
+  &:after {
+    content: "";
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 60% 100%, 46% 91%, 0 100%);
+    background: url(../../../assets//home/block-2/background.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    margin-top: -12vh;
+    min-height: 1000px;
+  }
+
+  @media only screen and (max-width: 598px) {
+    min-height: 128vh;
+    margin-top: -15vh;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    min-height: 1000px;
+  }
+
+  .background {
+    object-fit: cover;
+    overflow: hidden;
+    max-height: 550px;
+
+    @media only screen and (min-width: 576px) {
+      height: 100%;
+      width: auto;
+      max-height: 800px;
+    }
+
+    @media only screen and (min-width: 1300px) {
+      width: 100%;
+      max-height: 1000px;
+    }
+  }
+
+  .block-wrapper {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    @media only screen and (min-width: 768px) {
+      top: 20%;
+    }
+
+    .character-select {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 6%;
+      row-gap: 55px;
+      max-width: 520px;
+      margin: 0 auto;
+      margin-top: 65px;
+      .character-name {
+        font-size: 19px !important;
+        text-align: center;
+      }
+
+      @media only screen and (max-width: 768px) {
+        margin-top: 90px;
+      }
+
+      @media only screen and (max-width: 598px) {
+        grid-column-gap: 12%;
+        column-gap: 12%;
+        grid-row-gap: 55px;
+        row-gap: 55px;
+        justify-content: center;
+      }
+
+      .character-board {
+        width: 20%;
+        border-radius: 8px;
+        filter: drop-shadow(5px 10px 10px #0000004f);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1) rotate(0);
+        &:hover {
+          transform: scale(1.05) rotate(5deg);
+        }
+        .board {
+          max-width: 100%;
+          height: 100%;
+          outline: 4px solid white;
+          border-radius: 18px;
+        }
+        .char {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-52%);
+        }
+        &.unknown {
+          cursor: help !important;
+        }
+        &.no-click {
+          transform: scale(1) !important;
+          cursor: default;
+        }
+        &:active {
+          transform: scale(0.8);
+        }
+        &.active {
+          position: relative;
+          top: -30px;
+          .character-name {
+            display: block;
+          }
+        }
+        .character-name {
+          margin-top: 10px;
+          position: absolute;
+          left: 0;
+          bottom: -36px;
+          display: none;
+          width: 100%;
+        }
+        .join-rw {
+          position: absolute;
+          left: 60%;
+          top: 0%;
+          transform: translateY(-50%);
+          @media screen and (max-width: 1400px) {
+            left: 0;
+            top: 120%;
+            transform: translateY(0%);
+            transform: translateX(-160px);
+          }
+        }
+      }
+    }
+  }
+}
