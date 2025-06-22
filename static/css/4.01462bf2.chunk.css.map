@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Home/Characters/characters.scss"],"names":[],"mappings":"AAAA,YACE,iBAAA,CACA,SAAA,CACA,YAAA","file":"4.01462bf2.chunk.css","sourcesContent":[".Characters {\r\n  position: relative;\r\n  z-index: 3;\r\n  height: 800px;\r\n}"]}
