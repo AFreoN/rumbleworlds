@@ -933,13 +933,13 @@ button {
   background-size: 110%;
   background: rgb(3, 0, 23);
   background: #000
-    url("http://www.script-tutorials.com/demos/360/images/stars.png") repeat top
+    url("./assets/images/stars.png") repeat top
     center;
 }
 
 .twinkling {
   z-index: 1;
-  background: transparent url("https://image.ibb.co/ir1DE8/twinkling.png")
+  background: transparent url("./assets/images/nightskyemission.png")
     repeat top center;
   animation: move-twink-back 500s linear infinite;
 }
