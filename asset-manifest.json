@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rumbleworlds/static/css/main.4b04d05e.chunk.css",
+    "main.css": "/rumbleworlds/static/css/main.60872778.chunk.css",
     "main.js": "/rumbleworlds/static/js/main.cf7663c4.chunk.js",
     "main.js.map": "/rumbleworlds/static/js/main.cf7663c4.chunk.js.map",
     "runtime-main.js": "/rumbleworlds/static/js/runtime-main.ed1ddd48.js",
@@ -20,12 +20,12 @@
     "static/css/2.c14f3182.chunk.css.map": "/rumbleworlds/static/css/2.c14f3182.chunk.css.map",
     "static/css/3.95259bb4.chunk.css.map": "/rumbleworlds/static/css/3.95259bb4.chunk.css.map",
     "static/css/4.01462bf2.chunk.css.map": "/rumbleworlds/static/css/4.01462bf2.chunk.css.map",
-    "static/css/main.4b04d05e.chunk.css.map": "/rumbleworlds/static/css/main.4b04d05e.chunk.css.map",
+    "static/css/main.60872778.chunk.css.map": "/rumbleworlds/static/css/main.60872778.chunk.css.map",
     "static/js/2.f6b85756.chunk.js.LICENSE.txt": "/rumbleworlds/static/js/2.f6b85756.chunk.js.LICENSE.txt",
     "static/media/Blue_Incubator_01.8a4a570d.gltf": "/rumbleworlds/static/media/Blue_Incubator_01.8a4a570d.gltf",
     "static/media/BoxerSet_BaseColor.3da031c2.png": "/rumbleworlds/static/media/BoxerSet_BaseColor.3da031c2.png",
     "static/media/Green_Incubator_01.423a9cf2.gltf": "/rumbleworlds/static/media/Green_Incubator_01.423a9cf2.gltf",
-    "static/media/App.scss": "/rumbleworlds/static/media/LilitaOne-Regular.797856d9.ttf",
+    "static/media/App.scss": "/rumbleworlds/static/media/stars.1d1b6566.png",
     "static/media/Podium_01.27fe101b.gltf": "/rumbleworlds/static/media/Podium_01.27fe101b.gltf",
     "static/media/Purple_Incubator_01.f395aad6.gltf": "/rumbleworlds/static/media/Purple_Incubator_01.f395aad6.gltf",
     "static/media/Red_Incubator_01.3bce774c.gltf": "/rumbleworlds/static/media/Red_Incubator_01.3bce774c.gltf",
@@ -97,7 +97,7 @@
     "static/js/runtime-main.ed1ddd48.js",
     "static/css/2.c14f3182.chunk.css",
     "static/js/2.f6b85756.chunk.js",
-    "static/css/main.4b04d05e.chunk.css",
+    "static/css/main.60872778.chunk.css",
     "static/js/main.cf7663c4.chunk.js"
   ]
 }
