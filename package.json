@@ -1,6 +1,7 @@
 {
   "name": "rumble-worlds",
   "version": "0.1.0",
+  "homepage": "https://afreon.github.io/rumbleworlds",
   "private": true,
   "dependencies": {
     "@hubspot/api-client": "^5.0.0",
@@ -34,7 +35,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
